@@ -6,5 +6,12 @@ public class Persona {
     private int edad;
     private int dni;
 
+    public Persona(){
+        nombre="";
+        apellidos="";
+        edad=1;
+        dni=12;
+    }
+    
 
 }
